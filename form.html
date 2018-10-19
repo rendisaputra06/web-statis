@@ -6,39 +6,7 @@
     <title>Tugas Web - Membuat Form</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="style.css" rel="stylesheet"/>
-    <style>
-    body{
-        margin: 0; padding: 20px 0 20px 0; background: azure; font-family: Arial, Helvetica, sans-serif;
-    }.bungkus{
-        background: rgb(255, 187, 0); width: 60%; margin: 0px auto 0px auto;
-        box-shadow: 1px 4px 8px 2px gray;
-    }.bungkus h1{
-        text-align: center; margin-top: 0;color: white; padding-top: 20px; 
-    }.label{
-        display: block;
-    }form{
-       width: 70%; font-size: 24px ; line-height: 45px; margin: 0 auto 0 auto; color: white;
-    }.kotak{
-        width: 100%; height: 50px; border-radius: 10px; border:0;padding-left: 10px;
-    }input{
-        font-size: 20px;
-    }form select{ 
-        font-size: 20px;
-    }.kaki2{ 
-        height:20px; width: 100%; background : orangered; margin-top : 20px;
-        text-align: center; padding :5px 0 ; color : white; font-style : italic;
-    }.paling-atas{ background: orangered; line-height: 40px; 
-        padding: 0 30px 0  100px; text-align : center;
-    }.paling-atas span{ 
-        padding-right: 70px; color : white; 
-    }.tombol{
-        width: 25%; height: 30px;
-    }.alamat {
-        width : 100%; height: 100px; border-radius: 10px;resize: none; border:0px;
-        font-size: 24px; padding: 10px; font-family: Arial, Helvetica, sans-serif;
-    }
-    </style>
-</head>
+ </head>
 
 <body>   
         <div class="bungkus">
@@ -83,8 +51,10 @@
                     <option>Ilmu Komunikasi</option>
                     <option>Hubungan International</option>
                 </select>
-                <div style="text-align:center;"><button class="tombol" type="submit">Submit</button>
-                <button class="tombol" type="reset">Reset</button></div>
+                <div style="text-align:center;">
+                    <button class="tombol" type="submit" disabled="disabled">Submit</button>
+                    <button class="tombol" type="reset">Reset</button>
+                </div>
             </form>
             <div class="kaki2">&copy;rendi_saputra</div>
         </div>
