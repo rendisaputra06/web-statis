@@ -58,6 +58,19 @@ body{
 .karir p{
     line-height: 30px;
 }
+.sub-tengah{
+    width: 510px;
+    padding-left: 30px;
+    text-align: justify;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.sub-tengah h4{
+    border-bottom : 2px solid #26a69a;
+    box-sizing: border-box;
+    padding-bottom: 4px;
+    text-align: center;
+}
 .biodata{
     width : 250px;
     float : right;
@@ -65,7 +78,7 @@ body{
     background : #b2ebf2;
     padding: 0 10px 0 10px;
     line-height: 30px;
-    height: 550px
+    padding-bottom: 20px;
      
 }
 .pendidikan{
@@ -97,7 +110,7 @@ body{
     color : white;
     font-style : italic
 }
-/*coding halaman form*/
+/*---------coding halaman form------------*/
 
 .bungkus{
     background: rgb(255, 187, 0); 
@@ -156,4 +169,35 @@ body{
     font-size: 24px; 
     padding: 10px; 
     font-family: Arial, Helvetica, sans-serif;
+}
+/*------------Koding halaman Tabel--------------*/
+.tbl{
+    width: 100%;
+    text-align: center;
+    margin: 0 0 10px 0;
+    border-collapse : collapse;
+    margin-bottom : 20px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+td{
+    padding : 10px 0;
+}
+.kepala-tbl{
+    background: blue;
+    color : white;
+    font-size: 20px;
+}
+.ganjil{
+    background: aqua;
+}
+.genap{
+    background: aquamarine; 
+}
+.ganjil:hover{
+    background: white;
+    color : black;
+}
+.genap:hover{
+    background: white;
+    color : black;
 }
