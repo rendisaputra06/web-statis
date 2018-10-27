@@ -6,7 +6,7 @@
     <title>Tugas Tabel - Pemograman Web</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <!--<script src="main.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
     <div class="pembungkus">
@@ -25,34 +25,83 @@
             <div class="tengah">
                 <div class="sub-tengah">
                     <h4>Tabel Jadwal Sekolah</h4>
-                    <table border="0px solid grey" class="tbl" >
+                    <div id="bg">
+                    <div id="modal-kotak">
+                    <table border="1px solid grey" class="tbl" >
                         <tr class="kepala-tbl">
-                            <td rowspan="2">No</td><td rowspan="2">Hari</td><td colspan="3">Kelas</td><td rowspan="2">Ruangan</td>
+                            <td rowspan="2">No</td><td rowspan="2">Hari</td><td colspan="5">Kelas</td><td rowspan="2">Ruangan</td>
                         </tr>
                         <tr class="kepala-tbl">
-                            <td>X.a</td><td>X.b</td><td>X.c</td>
+                            <td>X.a</td><td>X.b</td><td>X.c</td><td>X.d</td><td>X.e</td>
                         </tr>
                         <tr class="ganjil">
-                            <td>1</td><td>Senin</td> <td></td> <td></td> <td></td> <td></td>
+                            <td>1</td><td>Senin</td> 
+                            <td>Web PRO 1</td> 
+                            <td>Data mining</td> 
+                            <td>Web Pro 1</td> 
+                            <td>AI</td>
+                            <td>Image Procesing</td>
+                            <td>TBZ</td>
                         </tr>
                         <tr class="genap">
-                            <td>2</td><td>Selasa</td> <td></td> <td></td> <td></td> <td></td>
+                            <td>2</td>
+                            <td>Selasa</td> 
+                            <td>AI</td> 
+                            <td>Image Procesing</td>
+                            <td>Data mining</td>
+                            <td>Web Pro 1</td>
+                            <td>Mechine Learning</td>
+                            <td>Filosofia</td>
                         </tr>
                         <tr class="ganjil">
-                            <td>3</td><td>Rabu</td> <td></td> <td></td> <td></td> <td></td>
+                            <td>3</td>
+                            <td>Rabu</td> 
+                            <td>Data mining</td> 
+                            <td>Machine Learning</td> 
+                            <td>Image Procesing</td>
+                            <td>Data mining</td>
+                            <td>Data mining</td>
+                            <td>Medicina</td>
                         </tr>
                         <tr class="genap">
-                            <td>4</td><td>Kamis</td> <td></td> <td></td> <td></td> <td></td>
+                            <td>4</td>
+                            <td>Kamis</td> 
+                            <td>image procesing</td> 
+                            <td>AI</td> 
+                            <td>Machine learning</td> 
+                            <td>Image Procesing</td>
+                            <td>Image Procesing</td>
+                            <td>Academia</td>
                         </tr>
                         <tr class="ganjil">
-                            <td>5</td><td>Jumat</td> <td></td> <td></td> <td></td> <td></td>
+                            <td>5</td>
+                            <td>Jumat</td> 
+                            <td>Machine Larning</td> 
+                            <td>Web Pro 1</td> 
+                            <td></td> 
+                            <td>Machine Learning</td>
+                            <td>Image Procesing</td>
+                            <td>SA</td>
                         </tr>
                         <tr class="genap">
-                            <td>6</td><td>Sabtu</td> <td></td> <td></td> <td></td> <td></td>
+                            <td>6</td>
+                            <td>Sabtu</td> 
+                            <td></td> 
+                            <td></td> 
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         
 
                     </table>
+                    <div id="bawah">
+                        <button id="tombol-tutup">CLOSE</button>
+                    </div>
+                </div>
+                </div>
+                <div id="tombol">Klik Untuk Menampilkan Tabel</div>
                 </div>
                 <div class="biodata">
                         <h4>Alamat</h4>
@@ -68,4 +117,15 @@
         </div>
     </div>
 </body>
+<script type="text/javascript">
+$(document).ready(function(){
+		$('#tombol').click(function(){
+				$('#modal-kotak , #bg').fadeIn("slow");
+                alert(BErhasil);
+		});
+		$('#tombol-tutup').click(function(){
+			$('#modal-kotak , #bg').fadeOut("slow");
+		});
+	});
+</script>
 </html>
