@@ -200,10 +200,12 @@ td{
 .genap:hover{
     background: white;
     color : black;
-}#tombol{
+}
+#tombol{
     width : 50%;
     background: aqua;
     padding-top : 10px;
+    padding-bottom: 10px;
     color : white;
     font-family: impact;
     text-align: center;
@@ -225,24 +227,26 @@ td{
     
 }
 #modal-kotak{
-	margin:10% 30% 30% 30%;
-	width: 700px;	
+	margin:10% auto 30% ;
+	width: 900px;	
 	height: 200px;
-	position:fixed;
 	z-index:1002;
 	display: none;
 	background: white;	
 }
 #bawah{
-	background: #fff;
+    background: #fff;
+    padding : 0 auto 0 auto;
+    width: 300px;
+    margin: 0 auto 0 auto;
 }
 
 #tombol-tutup{
 	height: 30px;
-	width: 100px;
+	width: 300px;
 	color: #fff;
-    border: 0px;
-    background: #e74c3c;
-    text-align: center;
+    	border: 0px;
+    	background: #e74c3c;
+    	text-align: center;
+    	cursor: pointer;
 }
-
