@@ -200,4 +200,49 @@ td{
 .genap:hover{
     background: white;
     color : black;
+}#tombol{
+    width : 50%;
+    background: aqua;
+    padding-top : 10px;
+    color : white;
+    font-family: impact;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    margin-bottom : 300px;
+    cursor: pointer;
 }
+#bg{
+	position: absolute;
+	display: none;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	z-index:1001;
+	opacity: 0.8;
+    
+}
+#modal-kotak{
+	margin:10% 30% 30% 30%;
+	width: 700px;	
+	height: 200px;
+	position:fixed;
+	z-index:1002;
+	display: none;
+	background: white;	
+}
+#bawah{
+	background: #fff;
+}
+
+#tombol-tutup{
+	height: 30px;
+	width: 100px;
+	color: #fff;
+    border: 0px;
+    background: #e74c3c;
+    text-align: center;
+}
+
